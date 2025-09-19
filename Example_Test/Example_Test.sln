@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_PlayerHealth", "01_PlayerHealth\01_PlayerHealth.vcxproj", "{B8E37E8F-D735-4BEF-80DF-8283664C22AE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_01_플레이어체력회복시스템", "01_PlayerHealth\01_PlayerHealth.vcxproj", "{B8E37E8F-D735-4BEF-80DF-8283664C22AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_02_여러NPC작업관리시스템", "03_02_여러NPC작업관리시스템\03_02_여러NPC작업관리시스템.vcxproj", "{309B745B-8B5B-405D-86EE-FCE4AB56F226}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_03_게임 리소스 로딩 시스템", "03_03_게임 리소스 로딩 시스템\03_03_게임 리소스 로딩 시스템.vcxproj", "{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_04_실시간 멀티플레이어 턴 기반 전투 시스템", "03_04_실시간 멀티플레이어 턴 기반 전투 시스템\03_04_실시간 멀티플레이어 턴 기반 전투 시스템.vcxproj", "{2138277C-F467-4EFA-8FAD-C11EC10164C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,30 @@ Global
 		{B8E37E8F-D735-4BEF-80DF-8283664C22AE}.Release|x64.Build.0 = Release|x64
 		{B8E37E8F-D735-4BEF-80DF-8283664C22AE}.Release|x86.ActiveCfg = Release|Win32
 		{B8E37E8F-D735-4BEF-80DF-8283664C22AE}.Release|x86.Build.0 = Release|Win32
+		{309B745B-8B5B-405D-86EE-FCE4AB56F226}.Debug|x64.ActiveCfg = Debug|x64
+		{309B745B-8B5B-405D-86EE-FCE4AB56F226}.Debug|x64.Build.0 = Debug|x64
+		{309B745B-8B5B-405D-86EE-FCE4AB56F226}.Debug|x86.ActiveCfg = Debug|Win32
+		{309B745B-8B5B-405D-86EE-FCE4AB56F226}.Debug|x86.Build.0 = Debug|Win32
+		{309B745B-8B5B-405D-86EE-FCE4AB56F226}.Release|x64.ActiveCfg = Release|x64
+		{309B745B-8B5B-405D-86EE-FCE4AB56F226}.Release|x64.Build.0 = Release|x64
+		{309B745B-8B5B-405D-86EE-FCE4AB56F226}.Release|x86.ActiveCfg = Release|Win32
+		{309B745B-8B5B-405D-86EE-FCE4AB56F226}.Release|x86.Build.0 = Release|Win32
+		{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}.Debug|x64.ActiveCfg = Debug|x64
+		{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}.Debug|x64.Build.0 = Debug|x64
+		{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}.Debug|x86.Build.0 = Debug|Win32
+		{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}.Release|x64.ActiveCfg = Release|x64
+		{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}.Release|x64.Build.0 = Release|x64
+		{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}.Release|x86.ActiveCfg = Release|Win32
+		{9F9CB1F4-23BB-42B6-A18B-1F2501A27CF8}.Release|x86.Build.0 = Release|Win32
+		{2138277C-F467-4EFA-8FAD-C11EC10164C7}.Debug|x64.ActiveCfg = Debug|x64
+		{2138277C-F467-4EFA-8FAD-C11EC10164C7}.Debug|x64.Build.0 = Debug|x64
+		{2138277C-F467-4EFA-8FAD-C11EC10164C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{2138277C-F467-4EFA-8FAD-C11EC10164C7}.Debug|x86.Build.0 = Debug|Win32
+		{2138277C-F467-4EFA-8FAD-C11EC10164C7}.Release|x64.ActiveCfg = Release|x64
+		{2138277C-F467-4EFA-8FAD-C11EC10164C7}.Release|x64.Build.0 = Release|x64
+		{2138277C-F467-4EFA-8FAD-C11EC10164C7}.Release|x86.ActiveCfg = Release|Win32
+		{2138277C-F467-4EFA-8FAD-C11EC10164C7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
